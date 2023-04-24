@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario {
+    width: 100%;
+    align-items: center;
+}
+
+input {
+    width: 52%;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 15px;
+    margin: 5px;
+}
+
+button {
+    width: 54%;
+    padding: 13px;
+    font-size: 19px;
+    background: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button::hover {
+    background: #ff4d4d;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 5px;
+}
+
+.corpo {
+    width: 20%;
+    align-items: center;
+    margin: 0 0 -15px 30px;
+    padding: 5px;
+}
+
+.resultado-sucesso {
+    width: 53%;
+    color: #333;
+    background: #00ff80;
+    font-size: 22px;
+    border-radius: 5px;
+    padding: 25px;
+    align-items: center;
+    display: flex;
+}
+
+.resultado-atencao {
+    width: 53%;
+    color: #000;
+    background: yellow;
+    font-size: 22px;
+    border-radius: 5px;
+    padding: 25px;
+    align-items: center;
+    display: flex;
+}
+
+.resultado-negativo {
+    width: 53%;
+    color: #fff;
+    background: red;
+    font-size: 22px;
+    border-radius: 5px;
+    padding: 25px;
+    align-items: center;
+    display: flex;
+}
+
+p {
+    padding-top: 10px;
+}
+
+/* Parte Responsiva */
+
+@media (max-width: 900px) {
+    .formulario {
+        width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+.corpo {
+    width: 45%;
+    align-items: center;
+    margin: 0 0 -15px 40px;
+}
+
+input {
+    flex-wrap: wrap;
+    width: 87%;
+}
+
+button {
+    flex-wrap: wrap;
+    width: 95%;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    padding: 7px;
+}
+
+.resultado-sucesso {
+    width: 77%;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.resultado-atencao {
+    width: 77%;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.resultado-negativo {
+    width: 77%;
+    margin: 5px;
+    font-size: 15;
+}
